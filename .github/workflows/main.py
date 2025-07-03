@@ -1,8 +1,8 @@
 import requests
 import random
 import time
-import datetime
-from campaigns import campaigns
+from datetime import datetime, UTC
+from campaigns import campaigns  # Import campaigns from campaigns.py
 
 def get_page_access_token(page_id, user_token):
     url = f'https://graph.facebook.com/v20.0/{page_id}?fields=access_token&access_token={user_token}'
@@ -15,6 +15,7 @@ def get_page_access_token(page_id, user_token):
         return None
 
 def post_with_location(page_id, token, image_url, place_id, message):
+    # Step 1: Upload the photo as unpublished
     photo_url = f'https://graph.facebook.com/v20.0/{page_id}/photos'
     photo_payload = {
         'access_token': token,
@@ -31,6 +32,7 @@ def post_with_location(page_id, token, image_url, place_id, message):
         print("❌ No photo ID returned.")
         return
 
+    # Step 2: Create feed post with attached media and location
     feed_url = f'https://graph.facebook.com/v20.0/{page_id}/feed'
     feed_payload = {
         'access_token': token,
@@ -46,12 +48,7 @@ def post_with_location(page_id, token, image_url, place_id, message):
 
 # === MAIN LOOP ===
 
-# Determine which message to use
-hour = datetime.datetime.utcnow().hour
-messages = campaigns.get('messages', [])
-rotation_index = hour % len(messages)
-message = messages[rotation_index]
-  # Rotates 0, 1, 2 throughout the day
+hour = datetime.now(UTC).hour  # ✅ Timezone-aware, future-proof
 
 for campaign in campaigns:
     print(f"\n📢 Starting campaign: {campaign['name']}")
@@ -61,20 +58,37 @@ for campaign in campaigns:
         print(f"❌ Skipping campaign {campaign['name']} due to token issue.")
         continue
 
-    images = campaign.get('default_images', [])
-    place_ids = campaign.get('place_ids', [])
     messages = campaign.get('messages', [])
+    images = campaign.get('default_images', [])
+    default_place_ids = campaign.get('default_place_id')
 
-    if not images or not place_ids or not messages:
-        print(f"⚠️ Skipping campaign {campaign['name']} due to missing data.")
+    if not messages or not images:
+        print(f"⚠️ Skipping {campaign['name']} due to missing messages or images.")
         continue
 
-    message = messages[rotation_index % len(messages)]
-    image = random.choice(images)
-    place = random.choice(place_ids)
+    rotation_index = hour % len(messages)
+    message_data = messages[rotation_index]
 
-    print(f"📸 Posting image: {image} | 📍 Place: {place} | 💬 Message: {message}")
-    post_with_location(campaign['page_id'], token, image, place, message)
-    time.sleep(1)
+    # Support legacy plain-text messages
+    if isinstance(message_data, str):
+        message_data = {"text": message_data}
+
+    message_text = message_data.get('text')
+
+    # Determine place IDs (as a list)
+    place_ids = message_data.get('place_id') or default_place_ids
+    if isinstance(place_ids, str):
+        place_ids = [place_ids]  # convert to list if string
+
+    if not place_ids or not isinstance(place_ids, list):
+        print(f"⚠️ No valid place IDs for message. Skipping.")
+        continue
+
+    # Post to each place
+    for place_id in place_ids:
+        image = random.choice(images)
+        print(f"📸 Posting image: {image} | 📍 Place: {place_id} | 💬 Message: {message_text}")
+        post_with_location(campaign['page_id'], token, image, place_id, message_text)
+        time.sleep(1)
 
 print("✅ All campaigns finished.")
