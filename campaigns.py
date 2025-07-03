@@ -3,10 +3,10 @@ campaigns = [
         "name": "FLEXACIL-PERU-COLUMBIA",
         "page_id": "591429107395420",
         "user_access_token": "EACGhGyPqFBABOzSq4C1YBTpXMJdtCcnfHJxBC6xa4QEEaXtXwUGpZAuOipZCXpLwUexFmLpepn9bCF2OES74QDDmnQQAJqZCB6n1OqTwQDhjqrLUIWvZC6OZAGIl7adHpbr9OPuldZBCNYn3PWuCCPtlDynJsZA6uBhPLAhRHpCH8bABZAZAxudE5Cesx",
-        "default_place_id": ['614353808990299', #Lima
-                            '484104844993158', #Arequipa 
-                            '112643078751316', #Trujillo 
-                            '229773917228058', #Chiclayo
+        "default_place_id": ['112371848779363', #Santiago
+                            '111908478835911', #Valparaíso 
+                            '100887561594526', #Concepción 
+                            '121345547978791', #Puente Alto
                             '480092272000799', #bogota
                             '116555792238945', #cALI 
                             '111841478834264', #Medellin 
