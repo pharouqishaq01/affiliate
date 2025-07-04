@@ -93,6 +93,67 @@ Flexacil es una fórmula poderosa con condroitina y glucosamina que ayuda a comb
 '''
             }
         ]
+    },
+
+
+            {
+        "name": "FLEXACIL-CREAM-PERU-COLUMBIA",
+        "page_id": "662091650315556",
+        "user_access_token": "EAAsGeG9Fra4BO4KbJj2s6CRXRjtH4GZAcrk9IXkwLC4HtZC0NsZAAZBE7zYWWZAuXbXFQDRU8IZByvJ14Eai9uF76bphrjC6TLItKjfu5itwZBBSCUZCPu3ZCQSIyHVUniqvPDZAs1wQB98v6hmW68YrgYYTtRKGth6kZBFn4Jg7yP0373Ni96K9tQkCZBYV",
+        "default_place_id": ['614353808990299', #Lima
+                            '484104844993158', #Arequipa 
+                            '112643078751316', #Trujillo 
+                            '229773917228058', #Chiclayo
+                            '480092272000799', #bogota
+                            '116555792238945', #cALI 
+                            '111841478834264', #Medellin 
+                            '485526138210586' #Barranquilla-Colombia
+],  # fallback
+        "default_images": [
+        'https://drive.google.com/uc?export=view&id=1xfUZPP8QjuSr6jZxL3Fn2mhEXr9SLR2W',
+        'https://drive.google.com/uc?export=view&id=1Pz3vJp3SKdi4jjTN8g-tS95j8UQbND6j',
+        'https://drive.google.com/uc?export=view&id=1OHbTeP1fqDoEiS4CiLJkIp09P-c9dgon',
+        'https://drive.google.com/uc?export=view&id=1KqmFpy5cv4Fp9J8st_V8klA8HQs--P8f',
+        'https://drive.google.com/uc?export=view&id=1ibZrS56NP3WpAAip8bN5TW4zd7_fBX05'
+        ],
+        "messages": [
+            {
+                "text": '''
+💥 ¿Dolor en las articulaciones, artritis o reumatismo?
+🌿 ¡Flexacil Ultra alivia el dolor y regenera tus articulaciones!
+Recomendado por expertos en Japón 🇯🇵.
+📦 ¡Disponible en Perú y Colombia!
+👉 Pide el tuyo aquí: https://sites.google.com/view/flexacil-crea
+📲 Escribe “Quiero Flexacil Ultra” para más info.
+''',
+                
+            },
+            {
+                "text": '''
+🦴 ¿Te cuesta moverte por el dolor?
+Flexacil Ultra contiene jengibre, romero, eucalipto y más de 50 extractos naturales 🌿 que:
+✅ Eliminan sal acumulada en articulaciones
+✅ Mejoran la circulación
+✅ Regeneran cartílago y tendones
+🔥 ¡Solo S/ 89!
+📦 Envíos a todo Perú y Colombia
+👉 https://sites.google.com/view/flexacil-crea
+''',
+                
+            },
+            {
+                "text": '''
+🦴 ¿Te cuesta moverte por el dolor?
+Flexacil Ultra contiene jengibre, romero, eucalipto y más de 50 extractos naturales 🌿 que:
+✅ Eliminan sal acumulada en articulaciones
+✅ Mejoran la circulación
+✅ Regeneran cartílago y tendones
+🔥 ¡Solo S/ 89!
+📦 Envíos a todo Perú y Colombia
+👉 https://sites.google.com/view/flexacil-crea
+'''
+            }
+        ]
     }
 ]
 
