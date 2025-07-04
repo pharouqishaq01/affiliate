@@ -154,6 +154,77 @@ Flexacil Ultra contiene jengibre, romero, eucalipto y más de 50 extractos natur
 '''
             }
         ]
+    },
+ {
+        "name": "Duston-Gel-Mexico-Columbia",
+        "page_id": "598009303399186",
+        "user_access_token": "EAAOt1OXl6X0BO0GfmWnfv5lROicO4zffZActS6cDMquNFBFhJlQHH3kZCjPsAEZBZBLRP2LCr5pDRZBQI55yZBcSUzTNZA9TeMMl37r86Yp8P7opJzcjubZBAU2TVmKVbBF4yy8Bygr05NHvZAXOPWZAgDe1tGcunccr5YqHlSUFGEfIQtLSREjFhj",
+        "default_place_id": [
+            '480092272000799', #bogota
+            '116555792238945', #cALI 
+            '111841478834264', #Medellin 
+            '485526138210586', #Barranquilla-Colombia
+            '109318109087339',#puebla city
+            '109486839070556',#mexico
+            '114897945188014',#mexico city
+            '111939165490631',#tijuana
+            '298956890297260',#leon
+            '198130383580063',#Ecatepec
+            '104116582957771',#juarez
+            '112228142122051',#Zapopan
+            '103982989637871',#guadalajara
+            '110852402276862',#monterrey
+            '110846342273459',#nezahualcoyotl
+            '111820335503160',#mexicali
+            '110885848932443',#queretaro
+            '106152312753526',#culiacan
+],  # fallback
+        "default_images": [
+            'https://drive.google.com/uc?export=view&id=1jdtSTENbVepNFq1eDhYIxxnO22qjDfet',
+            'https://drive.google.com/uc?export=view&id=1N1h09eDhZPwvR2zSkp_GahZnCVyjxTd8',
+            'https://drive.google.com/uc?export=view&id=1dlLzGD-9jTLhXn70AFsM_T_6kcRTYgBp',
+            'https://drive.google.com/uc?export=view&id=1GoyC-dFMMoWPfX6_eglIkiLZWnVaKDpw',
+            'https://drive.google.com/uc?export=view&id=1XaOeeF9O2-AH1aK7SL9emOCeRc5L7d_f'
+        ],
+        "messages": [
+            {
+                "text": '''
+¿Dolor en la espalda o articulaciones? 😖
+¡Dile adiós con Duston Gel! 🌿
+Alivia artrosis, osteocondrosis y más — sin efectos secundarios.
+🔥 ¡Ahora con 50% de descuento! Solo $890 MXN
+📦 Envíos a todo México y Colombia
+👉 https://sites.google.com/view/duston-gel-mexico-columbia/home
+📲 ¡Pide ahora antes que se agote!
+''',
+                
+            },
+            {
+                "text": '''
+💥 ¿Sufres de inflamación, tensión muscular o desgaste en cartílagos?
+✨ Duston Gel te ofrece alivio rápido con ingredientes 100% naturales.
+✅ Menos dolor, más movimiento
+✅ Envío gratis
+✅ Solo $890 MXN / Precio especial Colombia también disponible
+🕒 ¡Promoción por tiempo limitado!
+👉 https://sites.google.com/view/duston-gel-mexico-columbia/home
+''',
+                
+            },
+            {
+                "text": '''
+🧴 Duston Gel: solución efectiva para artrosis, lesiones y dolor muscular.
+🌿 Fórmula japonesa natural, sin efectos secundarios.
+🛒 Cómo pedir:
+1️⃣ Llena el formulario
+2️⃣ Elige envío
+3️⃣ ¡Paga al recibir! 💵
+🚚 ¡Envío GRATIS a México y Colombia!
+🔥 ¡Aprovecha el 50% de descuento hoy!
+👉 https://sites.google.com/view/duston-gel-mexico-columbia/home
+'''
+            }
+        ]
     }
 ]
 
