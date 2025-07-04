@@ -1,4 +1,4 @@
-name: Scheduled Cardiotone Campaign Rotation
+name: Scheduled Campaign Rotation
 
 on:
   schedule:
