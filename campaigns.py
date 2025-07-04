@@ -1,6 +1,6 @@
 campaigns = [
     {
-        "name": "FLEXACIL-PERU-COLUMBIA",
+        "name": "FLEXACIL-PERU-COLUMBIA-CHILE",
         "page_id": "591429107395420",
         "user_access_token": "EACGhGyPqFBABOzSq4C1YBTpXMJdtCcnfHJxBC6xa4QEEaXtXwUGpZAuOipZCXpLwUexFmLpepn9bCF2OES74QDDmnQQAJqZCB6n1OqTwQDhjqrLUIWvZC6OZAGIl7adHpbr9OPuldZBCNYn3PWuCCPtlDynJsZA6uBhPLAhRHpCH8bABZAZAxudE5Cesx",
         "default_place_id": ['112371848779363', #Santiago
@@ -10,7 +10,11 @@ campaigns = [
                             '480092272000799', #bogota
                             '116555792238945', #cALI 
                             '111841478834264', #Medellin 
-                            '485526138210586' #Barranquilla-Colombia
+                            '485526138210586', #Barranquilla-Colombia
+                            '614353808990299', #Lima
+                            '484104844993158', #Arequipa 
+                            '112643078751316', #Trujillo 
+                            '229773917228058' #Chiclayo
 ],  # fallback
         "default_images": [
             'https://drive.google.com/uc?export=view&id=1HC60JsJpDSudxosf7QdJKgRNJpxVk04i',
@@ -36,7 +40,6 @@ campaigns = [
 🛑 ¡No más tratamientos costosos ni cirugías dolorosas!
 
 📉 PROMO ACTIVA: -50% de descuento por tiempo limitado
-💰 Precio HOY: solo 149 PEN (antes 298 PEN)
 📦 ¡Solo quedan 55 paquetes con descuento!
 
 👉 Ordena aquí: https://sites.google.com/view/flexacilultra-
@@ -64,7 +67,6 @@ Miles de personas mayores de 40 años ya han mejorado su calidad de vida con est
 3️⃣ Enviamos tu pedido
 4️⃣ ¡Pagas al recibir!
 
-🔥 Solo hoy: 149 PEN
 👉 https://sites.google.com/view/flexacilultra-
 #DescuentoFlexacil #Bienestar #SaludPerú
 ''',
@@ -84,7 +86,6 @@ Flexacil es una fórmula poderosa con condroitina y glucosamina que ayuda a comb
 💬 Opiniones reales de personas que ya lo probaron y lo recomiendan.
 
 📉 ¡Aprovecha la promo de hoy al 50%!
-💰 Precio: 149 PEN
 📦 Envío rápido y pago al recibir. ¡Quedan pocos paquetes!
 
 👉 https://sites.google.com/view/flexacilultra-
