@@ -1748,7 +1748,7 @@ Pedir es fácil: sin depósito ni complicaciones
 
 Entrega rápida tras el pedido y pago contra reembolso
 
-Solicita ahora: https://sites.google.com/view/steple
+Solicita ahora: https://sites.google.com/view/steple/home
 ''',
 'place_id':[        #SPAIN
 '197582646953514', '106287062743373', '112812522066039',
@@ -1791,4 +1791,3 @@ Solicita ahora: https://sites.google.com/view/steple
 
     
 ]
-
